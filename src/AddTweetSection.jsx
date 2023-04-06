@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AddTweet from "./AddTweet";
 import AddtweetContainer from "./AddtweetContainer"
 import "./AddTweetSection.css"
-import Login from './Login';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 const localGetItom = () => {
   let x = localStorage.getItem("tweet")
   if (x) {
