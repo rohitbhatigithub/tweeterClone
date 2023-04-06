@@ -30,7 +30,6 @@ function AddTweetSection({ check }) {
 
       setData([...data, { id: new Date().getTime().toString(), tweet: tweetMsg, img: imageUrl, toggle: commentInput, commentMsg: commentInputMsg }])
       setTweetMsg("")
-
     }
   }
 

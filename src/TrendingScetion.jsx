@@ -1,9 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import user from "./user.jpg"
 import gif from "./babyDancing.gif"
 import "./TrendingScetion.css"
 function TrendingScetion() {
-  const [date, setDate] = useState(new Date());
   
   return (
     <div className='TrendingScetion'>
