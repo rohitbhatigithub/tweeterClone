@@ -1,0 +1,67 @@
+.AddTweet {
+    overflow-y:auto;
+    height: 56vh;
+    padding: 10px;
+}
+
+.AddTweet_container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    flex-direction:column ;
+}
+
+.p{
+    display: flex;
+    margin-bottom: 18px;
+}
+.n{
+    border: 3px solid whitesmoke;
+    width: 100%;
+}
+.AddTweet_container_image {
+    width: 54px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right:30px ;
+}
+.AddTweet_tweetMsg{
+    margin-top: 10px;
+}
+span{
+    margin: 6px;
+}
+.fa-check-square{
+color: #50b7f5;
+}
+.removeTweet{
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    margin-left: 90px;
+}
+.removeTweet:hover{
+    color: red;
+}
+.post_img{
+ width: 358px;
+ height: 200px;
+}
+.userOption{
+width: 90%;
+margin-top: 25px;
+margin-left: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+i{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+hr{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

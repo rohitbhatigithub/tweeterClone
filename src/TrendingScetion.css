@@ -1,0 +1,107 @@
+.TrendingScetion{
+    width: 400px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    border: 3px solid whitesmoke;
+    padding: 16px;
+   height: 96vh;
+}
+.TrendingScetion_input_search{
+    width: 332px;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: #eaf3f9;
+    font-size: 20px;
+    border: none;
+    /* margin-left: 6px;
+    margin-right: 6px; */
+}
+.TrendingScetion_container{
+    background-color:#eaf3f9 ;
+    margin-top: 20px;
+   padding-bottom: 20px;
+}
+.TrendingScetion_name{
+  padding: 20px 0 10px 20px;
+}
+.TrendingScetion_main_box{
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start  ;
+    justify-content: space-between;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.TrendingScetion_user_image{
+    width: 54px;
+    height: 50px;
+    border-radius: 100px;
+    margin:10px ;
+}
+.TrendingScetion_container_image{
+    display: flex;
+
+}
+.user_details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.user_first_details{
+    display: flex;
+    gap: 10px;
+}
+.user_second_details{
+    display: flex;
+    gap: 10px;
+}
+.fa-twitter{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.TrendingScetion_message{
+   margin-left: 10px;
+   margin-bottom: 4px;
+}
+
+.TrendingScetion_gif{
+    height: 250px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+.people_reply_post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18px;
+    gap: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-heart{
+    color: rgb(209, 28, 59);
+}
+.fa-comment{
+    color: rgb(76, 76, 227);
+}
+.people_reply_post_comment{
+    margin-left: 20px;
+    padding: 6px;
+    text-align: center;
+    width: 250px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #1e7fbc;
+    font-weight: bolder;
+    border: 1px solid black;
+    font-size: 14px;
+}

@@ -1,0 +1,59 @@
+.fa-twitter{
+    font-size: 35px;
+    color: #50b7f5;
+}
+.fa-house{
+    color: #50b7f5;
+}
+.SidebarIMenu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 16px;
+    font-weight: 800;
+}
+.SidebarIMenu :hover{
+    background-color: #e8f5fe;
+}
+.SidebarIMenu > h3{
+    font-weight: 900 !important;
+    font-size: 20px;
+}
+.homeIcon{
+    color: red;
+}
+.Sidebar{
+    width:300px;
+    cursor: pointer;
+}
+.tweetBtn{
+    margin-top: 10px;
+}
+.firstMenu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 16px;
+    font-weight: 800;
+    background-color: #c0daed;
+    border-radius:40px ;
+    margin-bottom: 10px;
+}
+
+.menu_tweet_btn{
+    width: 99%;
+    height: 35px;
+    border: none;
+    background-color: #50b7f5;
+    color: white;
+    border-radius:50px ;
+    font-size: 20px;
+    font-weight: bold;
+}   
+.menu :hover{
+    background-color: #c0daed;
+    border-radius: 50px;
+    color: white;
+    transition: 100ms;
+    font-weight: bolder;
+}
